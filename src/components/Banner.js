@@ -11,9 +11,10 @@ const Banner = () => {
   const [delta, setDelta] = useState(300 - Math.random() * 100);
   const [index, setIndex] = useState(1);
   const toRotate = [
-    "Frontend Developer",
-    "Backend Developer",
-    "Database Administrator",
+    "Ettafssaoui Youssef",
+    "Web Developer",
+    "Software Engineer",
+    "Full Stack Engineer",
   ];
   const period = 2000;
 
@@ -62,7 +63,7 @@ const Banner = () => {
               A Galaxy of Creativity Awaits in My Portfolio
             </span>
             <h1>
-              {`Hey 👋, I'm `} <br />
+              {`Hey, I'm `} <br />
               <span className="wrap">{text}</span>
             </h1>
             <p>

@@ -8,6 +8,7 @@ import "react-multi-carousel/lib/styles.css";
 import gradient from "../assets/img/_grad.png";
 import Techstack from "./Techstack";
 import Toolstack from "./Toolstack";
+import Github from "./Github";
 const Skills = () => {
   const responsive = {
     superLargeDesktop: {
@@ -91,6 +92,8 @@ const Skills = () => {
                 <strong className="green-span">Tools</strong> I use
               </h1>
               <Toolstack />
+
+              <Github />
             </div>
           </div>
         </div>

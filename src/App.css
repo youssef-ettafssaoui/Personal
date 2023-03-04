@@ -305,7 +305,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 }
 .banner p {
   color: #fdfdfd;
-  font-size: 24px;
+  font-size: 29px;
   letter-spacing: 0.8px;
   line-height: 1.5em;
   width: 96%;
@@ -348,6 +348,11 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 
 /************ Skills Css ************/
 .skill {
+  background-image: url(./assets/img/ciel-etoile.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  opacity: 0.9;
   padding: 0 0 50px 0;
   position: relative;
 }
@@ -359,13 +364,13 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   margin-top: -60px;
 }
 .skill h2 {
-  font-size: 50px;
+  font-size: 60px;
   font-weight: 700;
   text-transform: uppercase;
 }
 .skill p {
   color: #fdfdfd;
-  font-size: 23px;
+  font-size: 29px;
   letter-spacing: 0.8px;
   line-height: 1.5em;
   margin: 14px 0 75px 0;
@@ -381,7 +386,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 }
 
 .skill-slider .item h5 {
-  font-size: 24px;
+  font-size: 26px;
   font-weight: 700;
   margin-bottom: 10px;
   text-transform: uppercase;
@@ -418,7 +423,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 .tech-icons:hover {
   transform: scale(1.05) !important;
   overflow: hidden !important;
-  border: 2.2px solid #0e156e !important;
+  border: 2.2px solid #424abd !important;
 }
 .tech-icon-images {
   padding: 20px !important;
@@ -433,6 +438,8 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 
 .green-span {
   color: #c6fff1 !important;
+  font-size: 1.2em !important;
+  text-transform: uppercase !important;
 }
 /************ Projects Css ************/
 .project {
@@ -441,12 +448,12 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   background-color: black;
 }
 .project h2 {
-  font-size: 45px;
+  font-size: 50px;
   font-weight: 700;
   text-align: center;
 }
 .project p {
-  color: #b8b8b8;
+  color: #f4f4f4;
   font-size: 18px;
   letter-spacing: 0.8px;
   line-height: 1.5em;
@@ -455,7 +462,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   width: 56%;
 }
 .project .nav.nav-pills {
-  width: 72%;
+  width: 80%;
   margin: 0 auto;
   border-radius: 50px;
   background-color: rgb(255 255 255 / 10%);
@@ -572,7 +579,11 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   position: relative !important;
   padding-top: 150px !important;
   padding-bottom: 30px !important;
-  background-image: var(--section-background-color) !important;
+  background-image: url(./assets/img/ciel-etoile.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  opacity: 0.9 !important;
 }
 
 .project-card {
@@ -641,6 +652,9 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 }
 
 .btn-primary {
+  text-transform: uppercase !important;
+  font-size: 20px !important;
+  font-weight: 900 !important;
   color: #0e156e !important;
   background-color: #c6fff1 !important;
   border-color: #c6fff1 !important;
@@ -656,8 +670,9 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   box-shadow: none !important;
 }
 .project-heading {
+  text-align: center !important;
   color: white !important;
-  font-size: 2.3em !important;
+  font-size: 3.3em !important;
   font-weight: 500 !important;
   padding-top: 10px !important;
 }
